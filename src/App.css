@@ -1,0 +1,131 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #343a40;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* Todo app container */
+.todo-app {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+/* Input container */
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-container input.new-task {
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+
+.input-container input::placeholder {
+  color: #ced4da;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background: #0056b3;
+}
+
+/* Todo list styles */
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background: #f8f9fa;
+  box-shadow: 0 0 5px rgba(0,0,0,0.05);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.todo-item:hover {
+  background: #e9ecef;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.todo-item.completed {
+  background: #d4edda;
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.todo-item span {
+  flex-grow: 1;
+  text-align: left;
+  cursor: pointer;
+}
+
+.todo-item button {
+  background: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo-item button:hover {
+  background: #c82333;
+}
+
+/* Chat bubble shape for new tasks */
+.todo-item.new {
+  background-color: #dc3545;
+  color: white;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 10px 0;
+}
