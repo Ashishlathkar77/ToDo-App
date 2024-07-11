@@ -127,13 +127,13 @@ Building this To-Do app provided valuable experience in React development, AWS A
 ## Screenshots
 
 ### 1. Sign-In Page
-![Sign-In Page](./screenshots/signin.png)
+![Sign-In Page](https://github.com/Ashishlathkar77/ToDo-App/blob/main/App-Screenshots/Screenshot%20(2362).png)
 
 ### 2. Dropdown Options
-![Dropdown Options](./screenshots/dropdown.png)
+![Dropdown Options](https://github.com/Ashishlathkar77/ToDo-App/blob/main/App-Screenshots/Screenshot%20(2363).png)
 
 ### 3. Adding and Completing Tasks
-![Adding Tasks](./screenshots/adding_tasks.png)
+![Adding Tasks](https://github.com/Ashishlathkar77/ToDo-App/blob/main/App-Screenshots/Screenshot%20(2364).png)
 
 ---
 
